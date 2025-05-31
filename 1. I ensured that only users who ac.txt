@@ -1,0 +1,11 @@
+1. I ensured that only users who actually shared a completed ride together can leave feedback. This prevents random users from posting comments or complaints. It helps keep the feedback system fair, relevant, and trustworthy.
+
+2. I made sure that only users who are logged in can view or make changes to their own profiles. This keeps personal information secure and prevents others from accessing it. It also helps maintain a safe and private user experience on the platform.
+
+3. I made sure only image files can be uploaded by checking the file’s MIME type.
+This prevents users from uploading potentially harmful or unrelated files.
+It helps keep the system safe and focused on profile image uploads.
+
+4. I limited the size of uploaded files to prevent users from uploading excessively large ones. This helps protect the server from performance issues.
+It ensures a smoother and safer experience for everyone.
+5. I stored the image in a specific uploads/ folder and saved the filename in the database.
